@@ -85,7 +85,7 @@
 
         initObserver: function() {
             if (typeof MutationObserver === 'function') {
-                (new MutationObserver(function(mutations) {
+                (new MutationObserver(function() {
                     lytix.initEvents();
                 })).observe(document.body, {
                     childList: true,
