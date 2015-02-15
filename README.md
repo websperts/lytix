@@ -86,11 +86,24 @@ lytix.settings.autoTrackVirtualPages = true;
 
 | Vendor                     | Page tracking supported?                                                                                                  | Event tracking supported? | File                                                                                            |
 |:---------------------------|:-------------------------------------------------------------------------------------------------------------------------:|:-------------------------:|:------------------------------------------------------------------------------------------------|
-| Adobe Analytics (Omniture) | Yes                                                                                                                       | Yes                       | [lytix-adobe.js](https://github.com/websperts/lytix/blob/master/src/lytix-adobe.js)             |
-| Google Analytics           | Yes                                                                                                                       | Yes                       | [lytix-google.js](https://github.com/websperts/lytix/blob/master/src/lytix-google.js)           |
-| Piwik                      | Yes                                                                                                                       | Yes                       | [lytix-piwik.js](https://github.com/websperts/lytix/blob/master/src/lytix-piwik.js)             |
+| Adobe Analytics (Omniture) | Yes                                                                                                                       | Yes                       | [lytix-adobe.js](https://github.com/websperts/lytix/blob/master/lytix-adobe.js)                 |
+| Baidu                      | Yes                                                                                                                       | Yes                       | [lytix-baidu.js](https://github.com/websperts/lytix/blob/master/lytix-baidu.js)                 |
+| Chartbeat                  | Yes                                                                                                                       | No                        | [lytix-chartbeat.js](https://github.com/websperts/lytix/blob/master/lytix-chartbeat.js)         |
+| CNZZ                       | Yes                                                                                                                       | Yes                       | [lytix-cnzz.js](https://github.com/websperts/lytix/blob/master/lytix-cnzz.js)                   |
+| Flurry                     | No                                                                                                                        | Yes                       | [lytix-flurry.js](https://github.com/websperts/lytix/blob/master/lytix-flurry.js)               |
+| HubSpot                    | Yes                                                                                                                       | Yes                       | [lytix-hubspot.js](https://github.com/websperts/lytix/blob/master/lytix-hubspot.js)             |
+| Google Analytics           | Yes                                                                                                                       | Yes                       | [lytix-google.js](https://github.com/websperts/lytix/blob/master/lytix-google.js)               |
+| KISSmetrics                | [Yes (via event tracking)](//support.kissmetrics.com/apis/javascript/javascript-specific/#tracking-individual-page-views) | Yes                       | [lytix-kissmetrics.js](https://github.com/websperts/lytix/blob/master/lytix-kissmetrics.js)     |
+| Localytics                 | Yes                                                                                                                       | Yes                       | [lytix-localytics.js](https://github.com/websperts/lytix/blob/master/lytix-localytics.js)       |
+| Loggly                     | Yes                                                                                                                       | Yes                       | [lytix-loggly.js](https://github.com/websperts/lytix/blob/master/lytix-loggly.js)               |
+| Mixpanel                   | [Yes (via event tracking)](//mixpanel.com/docs/getting-started/events-vs-page-views)                                      | Yes                       | [lytix-mixpanel.js](https://github.com/websperts/lytix/blob/master/lytix-mixpanel.js)           |
+| Piwik                      | Yes                                                                                                                       | Yes                       | [lytix-piwik.js](https://github.com/websperts/lytix/blob/master/lytix-piwik.js)                 |
+| Segment                    | Yes                                                                                                                       | Yes                       | [lytix-segment.js](https://github.com/websperts/lytix/blob/master/lytix-segment.js)             |
+| Splunk                     | Yes                                                                                                                       | Yes                       | [lytix-splunk.js](https://github.com/websperts/lytix/blob/master/lytix-splunk.js)               |
+| Trak.io                    | Yes                                                                                                                       | Yes                       | [lytix-trakio.js](https://github.com/websperts/lytix/blob/master/lytix-trakio.js)               |
+| Woopra                     | Yes                                                                                                                       | Yes                       | [lytix-woopra.js](https://github.com/websperts/lytix/blob/master/lytix-woopra.js)               |
 
-[lytix-debugging.js](https://github.com/websperts/lytix/blob/master/src/lytix-debugging.js) is a special plugin that logs everything that happens to the browser console. It’s intended to support you while testing/debugging your tracking.
+[lytix-debugging.js](https://github.com/websperts/lytix/blob/master/lytix-debugging.js) is a special plugin that logs everything that happens to the browser console. It’s intended to support you while testing/debugging your tracking.
 
 ## Contributing
 
@@ -98,6 +111,10 @@ If your analytics vendor of choice is not among the existing plugins, feel free 
 
 ## Changelog
 
+* 0.0.2
+  * Add adapters for Baidu, Chartbeat, CNZZ, Flurry, HubSpot, KISSmetrics, Localytics, Loggly, Mixpanel, Segment, Splunk, Trak.io and Woopra
+  * Fix README
+  * Clean up
 * 0.0.1
   * Initial version
 
