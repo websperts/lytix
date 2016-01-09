@@ -115,6 +115,9 @@ If your analytics vendor of choice is not among the existing plugins, feel free 
 
 ## Changelog
 
+* 0.0.3
+  * npm support
+  * Bower support
 * 0.0.2
   * Add adapters for Baidu, Chartbeat, CNZZ, Flurry, HubSpot, KISSmetrics, Localytics, Loggly, Mixpanel, Segment, Splunk, Trak.io and Woopra
   * Fix README
