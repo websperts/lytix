@@ -6,7 +6,11 @@ Lytix encapsulates tracking codes so you’re able to switch your Web analytics 
 
 ## Download
 
-[Download the latest release](https://github.com/websperts/lytix/archive/master.zip) to get going with Lytix.
+To get going with Lytix you can:
+
+- [Download the latest release](https://github.com/websperts/lytix/archive/master.zip)
+- [Install with npm](https://www.npmjs.com/): `npm install lytix`
+- [Install with Bower](http://bower.io/): `bower install lytix`
 
 ## Usage
 

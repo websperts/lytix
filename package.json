@@ -1,0 +1,21 @@
+{
+  "name": "lytix",
+  "version": "0.0.2",
+  "description": "Avoid dealing with vendor-specific Web analytics tracking codes",
+  "main": "lytix.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/websperts/lytix.git"
+  },
+  "keywords": [
+    "lytix",
+    "analytics",
+    "tracking"
+  ],
+  "author": "websperts <hello@websperts.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/websperts/lytix/issues"
+  },
+  "homepage": "https://github.com/websperts/lytix"
+}
