@@ -115,6 +115,8 @@ If your analytics vendor of choice is not among the existing plugins, feel free 
 
 ## Changelog
 
+* 0.0.4
+  * Fix typo in README
 * 0.0.3
   * npm support
   * Bower support
@@ -132,7 +134,7 @@ If your analytics vendor of choice is not among the existing plugins, feel free 
 
 ## License
 
-Copyright (c) 2016 [websperts](http://websperts.com/)
+Copyright (c) 2016 [websperts](http://websperts.com/)  
 Licensed under the MIT license.
 
 See LICENSE for more info.
