@@ -129,7 +129,7 @@ If your analytics vendor of choice is not among the existing plugins, feel free 
 
 ## License
 
-Copyright (c) 2015 [websperts](http://websperts.com/)  
+Copyright (c) 2016 [websperts](http://websperts.com/)
 Licensed under the MIT license.
 
 See LICENSE for more info.
